@@ -1,0 +1,120 @@
+@import url('variables.css');
+/* @import url('media.css'); */
+
+body {
+    background-color: var(--primary-color);
+}
+
+.container {
+    height: 100vh;
+}
+
+.comic-neue-light {
+    font-weight: 300;
+    font-style: normal;
+}
+
+.comic-neue-regular {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comic-neue-bold {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.comic-neue-regular-italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.descr {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.avatar {
+    width: 300px;
+    height: 300px;
+}
+
+.list_item {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.links_social {
+    width: 400px;
+}
+
+.links_social svg {
+    margin: 0 8px 0 8px;
+}
+
+.links_social ul {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #113cca;
+}
+
+footer {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .descr {
+        font-size: 22px;
+    }
+
+    .avatar {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .descr {
+        font-size: 18px;
+    }
+
+    .avatar {
+        width: 180px;
+        height: 180px;
+    }
+}

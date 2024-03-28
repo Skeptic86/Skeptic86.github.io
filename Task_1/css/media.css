@@ -1,0 +1,10 @@
+@media screen and (max-width: 768px) {
+    .descr {
+        font-size: 16px;
+    }
+
+    .avatar {
+        width: 200px;
+        height: 200px;
+    }
+}
